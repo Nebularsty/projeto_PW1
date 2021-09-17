@@ -1,0 +1,116 @@
+
+/*Fonte de Texto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+@font-face {
+    font-family: 'Roboto Slab', serif; 
+    src: url(../Fontes/RobotoSlab-VariableFont_wght.ttf);
+    font-size: lem;
+}
+
+/*HTML*/
+html{
+    font-family: 'Roboto Slab', serif; 
+    background: url(../Imagem/espaço.fundo.jpg);
+    background-size: cover;
+    }
+
+/*Titulo da Página*/  
+.titulo{
+   font-size: 70px;
+   color:white;
+   padding: auto;
+   text-align: center;
+}
+
+/*Conteiner*/
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/*Bloco*/
+.bloco{
+    background-color:#0a051d;
+    background-size: cover;
+    border: 7px double white; 
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.bloco h2{
+    color:white;
+    padding: 10px;
+    text-align: center;
+}
+
+.bloco p{
+    color:white;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.bloco li{
+    color:white;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    display:list-item;
+}
+
+/*Link*/
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: cyan;
+    background-color: solid;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration:unset;
+}
+
+/*Tabela*/
+.table, th, td {
+    border:2px solid white;
+    color:white;}
+
+
+
+.tr:hover {background-color: #000000;
+}
+
+
+/*Galeria*/
+div.gallery {
+    margin:7px;
+    border: 5px solid #B3CEE8;
+    float:left ;
+    width: 200px;
+}
+  
+div.gallery:hover {
+    border: 1px solid cyan;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    color:white;
+    padding: 15px;
+    text-align: center;
+}
+
+/*Clear*/
+.clear {
+    clear:both;
+}
